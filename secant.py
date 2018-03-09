@@ -5,7 +5,7 @@ from psm_plot import *
 from random import *
 
 def f_string():
-    fn_string = "pow(x,3)-x-exp(x)-1"
+    fn_string = "pow(x,2)-exp(-x)"
     return fn_string
 
 def f(x):
@@ -18,7 +18,7 @@ def f(x):
 #Secant
 #this is an Open method...
 
-x_root = [4.0,5.0]
+x_root = [0.0,1.0]
 
 max_iterations = 100
 count = 1

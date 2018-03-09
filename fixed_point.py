@@ -7,7 +7,7 @@ from random import *
 def f_string():
     #note modify actual so that f(x)=0 is transformed to g(x)= x
     #fn_string = "pow(x,3)-exp(x)-1"
-    fn_string = "pow(x,3)-exp(x)-1"
+    fn_string = "acos(x/1.8)"
     return fn_string
 
 def f(x):
@@ -20,7 +20,7 @@ def f(x):
 #Secant
 #this is an Open method...
 
-x_root = [2.0]
+x_root = [0.75]
 
 max_iterations = 20
 count = 0

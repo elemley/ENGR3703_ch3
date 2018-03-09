@@ -5,7 +5,7 @@ from psm_plot import *
 from random import *
 
 def f_string():
-    fn_string = "pow(x,3)-x-exp(x)-1"
+    fn_string = "cos (x)"
     return fn_string
 
 def f(x):
